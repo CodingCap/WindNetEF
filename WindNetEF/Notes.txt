@@ -1,0 +1,7 @@
+1. install enityt framework
+	- install-package entityframework
+2. de adaugat connection string
+	<connectionStrings>
+    <add name="WindNetConnString" connectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=WindNet;Integrated Security=True" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+3. De adaugat DBContext
