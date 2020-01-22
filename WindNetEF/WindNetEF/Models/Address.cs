@@ -11,7 +11,7 @@ namespace WindNetEF.Models
         public int AddressId { get; set; }
         public string Street { get; set; }
         public string StreetNumber { get; set; }
-
+        
         //one to one relation
         //cam tras de par dar sa zicem ca o firma are o singura adresa
         //Company este PRINCIPAL

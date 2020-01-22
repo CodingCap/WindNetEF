@@ -16,6 +16,8 @@ namespace WindNetEF.Models
         //many to many relation
         public ICollection<Trip> Trips { get; set; }
 
+        //FK pt client
+        public int ClientId { get; set; }
         //one to many relation
         public Company Client { get; set; }
     }

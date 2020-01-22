@@ -23,7 +23,7 @@ namespace WindNetEF
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Configurations.Add(new Configuration());
+            modelBuilder.Configurations.Add(new EntityConfigurations.CompanyConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }
